@@ -1,0 +1,48 @@
+BveTs Map 2.02
+
+// ========================================================================== //
+//      JR和田岬線 路線データ                                                 //
+//                                                                            //
+//      ストラクチャ設置 和田岬線 下り(兵庫→和田岬)                          //
+//      現地取材日:2023/03/15                                                 //
+//                                                                            //
+//      作成日    :2023/03/18                                                 //
+//      更新日    :2023/03/18                                                 //
+//      作成者    :Tn_E235                                                    //
+// ========================================================================== //
+
+// -------------------------------------------------------------------------- //
+//      川崎車両工場付近                                                      //
+// -------------------------------------------------------------------------- //
+
+// -------------------------------------------------------------------------- //
+//      川崎重工前ストレート
+// -------------------------------------------------------------------------- //
+998;            Structure['fence_block_4_L'].Put('',-6.5,-0.5,0,0,0,0,1,5);
+999;            Structure['fence_block_4_L'].Put('',-6.5,-0.5,0,0,0,0,1,5);
+
+1000;           Repeater['fence_block_L'].Begin('',-6.5,-0.5,0,0,0,0,1,5,5,'fence_block_2_L');
+1005;           Repeater['fence_block_L'].Begin('',-6.5,-0.5,0,0,0,0,1,5,5,'fence_block_1_L');
+1035;           Repeater['fence_block_L'].Begin('',-6.5,-0.5,0,0,0,0,1,5,5,'fence_block_3_L');
+1065;           Repeater['fence_block_L'].Begin('',-6.5,-0.5,0,0,0,0,1,5,5,'fence_block_2_L');
+1085;           Repeater['fence_block_L'].End();    
+
+// 川重外壁
+855;            Repeater['fence_block_R'].Begin('kawasaki_kijun_2', 0,0,0,0,0,0,1,5,5,'fence_block_6_R');
+885;            Repeater['fence_block_R'].End();
+885;            Structure['fence_gate_1-1'].Put('kawasaki_kijun_2', 0.2,0,0,0,0,0,1,10);
+895;            Structure['fence_gate_1-2'].Put('kawasaki_kijun_2', 0.2,0,0,0,0,0,1,10);
+905;            Structure['fence_gate_1-1'].Put('kawasaki_kijun_2', 0.2,0,0,0,0,0,1,10);
+915;            Repeater['fence_block_R'].Begin('kawasaki_kijun_2', 0,0,0,0,0,0,1,5,5,'fence_block_6_R');
+935;            Repeater['fence_block_R'].Begin('kawasaki_kijun_2', 0,0,0,0,0,0,1,5,5,'fence_block_7_R');
+1085;           Repeater['fence_block_R'].End();
+
+
+575;            Repeater['MainTrack_dosyo_L'].Begin('ground_level', 0,0.01,0,0,0,0,1,10,10,'dosyo_1_L');
+855;            Repeater['MainTrack_dosyo_R'].Begin('ground_level', 0,0.01,0,0,0,0,1,10,10,'dosyo_1_R');
+1100;           Repeater['MainTrack_dosyo_L'].End();
+1100;           Repeater['MainTrack_dosyo_R'].End();
+
+// 道路
+855;            Repeater['douro_1'].Begin('kawasaki_kijun_1', 3.25,-0.05,0,0,0,0,1,5,5,'douro_1');
+1125;           Repeater['douro_1'].End();

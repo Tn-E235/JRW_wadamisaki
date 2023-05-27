@@ -1,0 +1,153 @@
+BveTs Map 2.02
+
+// ========================================================================== //
+//      JR和田岬線 路線データ                                                 //
+//                                                                            //
+//      ストラクチャ設置 和田岬線 下り(兵庫→和田岬)                          //
+//      現地取材日:2023/03/15                                                 //
+//                                                                            //
+//      作成日    :2023/03/18                                                 //
+//      更新日    :2023/03/18                                                 //
+//      作成者    :Tn_E235                                                    //
+// ========================================================================== //
+
+// -------------------------------------------------------------------------- //
+//      和田岬線(自線下り)                                                    //
+// -------------------------------------------------------------------------- //
+0;              Repeater['MainTrack_Rail'].Begin0('',3,5,5,'tr_bal_5m_B');
+2500;           Repeater['MainTrack_Rail'].End();
+
+// -------------------------------------------------------------------------- //
+//      線形データ(川崎重工引込線1)                                           //
+// -------------------------------------------------------------------------- //
+835;            Repeater['kawasaki_hikikomi_track_1'].Begin0('kawasaki_hikikomi_1',3,5,5,'tr_bal_5m_B'); 
+950;            Repeater['kawasaki_hikikomi_track_1'].End();  
+880;            Repeater['kawasaki_hikikomi_track_2'].Begin0('kawasaki_hikikomi_2',3,5,5,'tr_bal_5m_B'); 
+950;            Repeater['kawasaki_hikikomi_track_2'].End();  
+// ---- 線路フェンス -------------------------------------------------------- //
+220;            Repeater['MainTrack_RailFence_R'].Begin('',0,-0.5,0,0,0,0,1,25,25,'rail_fence_25R');
+300;            Repeater['MainTrack_RailFence_R'].End();
+
+400;            Repeater['MainTrack_RailFence_L'].Begin('',0,-0.5,0,0,0,0,1,25,25,'rail_fence_25L');
+500;            // Repeater['MainTrack_RailFence_R'].Begin('',0,-0.5,0,0,0,0,1, 5, 5,'rail_fence_R');
+500;            Repeater['MainTrack_RailFence_R'].Begin('',0,-0.5,0,0,0,0,1,25,25,'rail_fence_25R');
+650;        
+660;            Repeater['MainTrack_RailFence_L'].End();
+660;            Repeater['MainTrack_RailFence_R'].End();
+
+425;            Repeater['MainTrack_RailFenceWall_L'].Begin('',0,0,0,0,0,0,1,25,25,'rail_fence_wall_25L');
+660;            Repeater['MainTrack_RailFenceWall_L'].End();
+
+855;            Repeater['MainTrack_RailFence_R'].Begin('kawasaki_kijun_1', 0,-0.1,0,0,0,0,1,2.5,2.5,'fence_block_5_R');
+875;            Repeater['MainTrack_RailFence_R'].End();
+
+889;            Repeater['MainTrack_RailFence_R'].Begin('kawasaki_kijun_1', 0,-0.1,0,0,0,0,1,1.5,1.5,'fence_2_R');
+895;            Repeater['MainTrack_RailFence_R'].Begin('kawasaki_kijun_1', 0,-0.1,0,0,0,0,1,2.5,2.5,'fence_block_5_R');
+920;            Repeater['MainTrack_RailFence_R'].Begin('kawasaki_kijun_1', 0,-0.1,0,0,0,0,1,1.5,1.5,'fence_2_R');
+920;            Repeater['MainTrack_RailFence_R'].Begin('kawasaki_kijun_1', 0,-0.1,0,0,0,0,1,1.5,1.5,'fence_2_R');
+1085;           Repeater['MainTrack_RailFence_R'].End();
+
+// -------------------------------------------------------------------------- //
+//      兵庫　鷹取方面分岐
+// -------------------------------------------------------------------------- //
+
+// ---- 道床 ---------------------------------------------------------------- //
+410;            Structure['dosyo_aida_1_L'].PutBetWeen('','hyogo_wada_0_takatori');
+distance+5;     Structure['dosyo_aida_1_L'].PutBetWeen('','hyogo_wada_0_takatori');
+distance+5;     Structure['dosyo_aida_1_L'].PutBetWeen('','hyogo_wada_0_takatori');
+distance+5;     Structure['dosyo_aida_1_L'].PutBetWeen('','hyogo_wada_0_takatori');
+distance+5;     Structure['dosyo_aida_1_L'].PutBetWeen('','hyogo_wada_0_takatori');
+distance+5;     Structure['dosyo_aida_1_L'].PutBetWeen('','hyogo_wada_0_takatori');
+distance+5;     Structure['dosyo_aida_1_L'].PutBetWeen('','hyogo_wada_0_takatori');
+distance+5;     Structure['dosyo_aida_1_L'].PutBetWeen('','hyogo_wada_0_takatori');
+distance+5;     Structure['dosyo_aida_1_L'].PutBetWeen('','hyogo_wada_0_takatori');
+distance+5;     Structure['dosyo_aida_1_L'].PutBetWeen('','hyogo_wada_0_takatori');
+distance+5;     Structure['dosyo_aida_1_L'].PutBetWeen('','hyogo_wada_0_takatori');
+distance+5;     Structure['dosyo_aida_1_L'].PutBetWeen('','hyogo_wada_0_takatori');
+distance+5;     Structure['dosyo_aida_1_L'].PutBetWeen('','hyogo_wada_0_takatori');
+distance+5;     Structure['dosyo_aida_1_L'].PutBetWeen('','hyogo_wada_0_takatori');
+distance+5;     Structure['dosyo_aida_1_L'].PutBetWeen('','hyogo_wada_0_takatori');
+distance+5;     Structure['dosyo_aida_1_L'].PutBetWeen('','hyogo_wada_0_takatori');
+distance+5;     Structure['dosyo_aida_1_L'].PutBetWeen('','hyogo_wada_0_takatori');
+distance+5;     Structure['dosyo_aida_1_L'].PutBetWeen('','hyogo_wada_0_takatori');
+
+497;            Structure['rail_fence_L'].Put('', 3.1,-0.55,0,0,90,0,1,5);
+                Structure['rail_fence_L'].Put('', 8.1,-0.55,0,0,90,0,1,5);
+                Structure['rail_fence_L'].Put('',13.1,-0.55,0,0,90,0,1,5);
+                Structure['rail_fence_L'].Put('',18.1,-0.55,0,0,90,0,1,5);
+
+// -------------------------------------------------------------------------- //
+//      山陽本線                                                              //
+// -------------------------------------------------------------------------- //
+0;              Repeater['sanyo_kouka'].Begin('sanyo',0,-1,0,0,0,0,1,20,20,'sanyo_kouka_R');
+500;            Repeater['sanyo_kouka'].End();
+
+// -------------------------------------------------------------------------- //
+//      和田岬線(非電化番線)                                                  //
+// -------------------------------------------------------------------------- //
+0;              Repeater['hyogo_wada_0_Rail'].Begin('hyogo_wada_0',0,0,0,0,0,0,3,5,5,'tr_bal_5m_B');
+410;            Repeater['hyogo_wada_0_Rail'].End();
+
+0;              Repeater['hyogo_wada_0_RailFence_L'].Begin('hyogo_wada_0',0,-0.5,0,0,0,0,1,25,25,'rail_fence_25L');
+410;            Repeater['hyogo_wada_0_RailFence_L'].End();
+
+365;            Repeater['hyogo_takatori_Rail'].Begin('hyogo_takatori',0,0,0,0,0,0,3,5,5,'tr_bal_5m_B');
+410;            Repeater['hyogo_takatori_Rail'].End();
+
+365;            Repeater['hyogo_wada_0_takatori_Rail'].Begin('hyogo_wada_0_takatori',0,0,0,0,0,0,3,5,5,'tr_bal_5m_B');
+500;            Repeater['hyogo_wada_0_takatori_Rail'].End();
+
+// -------------------------------------------------------------------------- //
+//      旧和田岬線勾配                                                        //
+// -------------------------------------------------------------------------- //
+250;            Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');
+distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wada_old');

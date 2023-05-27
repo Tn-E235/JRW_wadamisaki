@@ -1,0 +1,227 @@
+BveTs Map 2.02
+
+// ========================================================================== //
+//      JR和田岬線 路線データ                                                 //
+//                                                                            //
+//      線形データ 和田岬線 下り(兵庫→和田岬線)                              //
+//      現地取材日:2023/03/15                                                 //
+//                                                                            //
+//      作成日    :2023/03/18                                                 //
+//      更新日    :2023/03/18                                                 //
+//      作成者    :Tn_E235                                                    //
+// ========================================================================== //
+
+// -------------------------------------------------------------------------- //
+//      現地線形データ(兵庫駅起点)                                            //
+// -------------------------------------------------------------------------- //
+// [0.09kmP]分岐
+// [0.15kmP]R500緩和曲線開始
+// [0.21kmP]R500終了
+// [0.41kmP]分岐合流
+// [0.47kmP]R195
+// [0.52kmP]下り18.0‰
+// [0.68kmP]下り0.4
+// [0.75kmP]明治第一踏切
+// [0.85kmP]緩和曲線終了/下り0.5‰
+// [1.1kmP]明和通踏切
+// [1.12kmP]R1500
+// [1.22kmP]御所通踏切
+// [1.30kmP]上り1.5‰
+// [1.38kmP]東尻池第5踏切
+// [1.48kmP]L
+// [1.52kmP]下り1.8‰
+// [1.65kmP]御崎通踏切
+// [1.68kmP]下り8‰
+// [1.85kmP]下り2‰
+// [1.92kmP]御崎本町踏切
+// [2.00kmP]笠松通踏切
+// [2.07kmP]下り1.7‰
+// [2.30kmP]停目
+// [2.20kmP]上り0.5‰
+
+// ========================================================================== //
+//                                                                            //
+//      線形データ(下り)                                                      //
+//                                                                            //
+// ========================================================================== //
+
+// -------------------------------------------------------------------------- //
+//      線形データ(自線下り)                                                  //
+// -------------------------------------------------------------------------- //
+150;        Curve.BeginTransition();    Structure['GradualDiminution_P'].Put('',-2,0,0,0,0,0,1,1);
+170;        Curve.Begin( 500,0);        Structure['Curve_P'].Put('',-2,0,0,0,0,0,1,1);
+200;        Curve.BeginTransition();    Structure['Curve_P'].Put('',-2,0,0,0,0,0,1,1);
+210;        Curve.End();                Structure['GradualDiminution_P'].Put('',-2,0,0,0,0,0,1,1);
+
+255;        Curve.BeginTransition();    Structure['GradualDiminution_P'].Put('',-2,0,0,0,0,0,1,1);
+275;        Curve.Begin(-500,0);        Structure['Curve_P'].Put('',-2,0,0,0,0,0,1,1);
+300;        Curve.BeginTransition();    Structure['Curve_P'].Put('',-2,0,-0.5,0,0,0,1,1);
+325;        Curve.End();                Structure['GradualDiminution_P'].Put('',-2,0,0,0,0,0,1,1);
+
+365;        Curve.Begin(-118);    
+379.395;    Curve.End();    
+395.798;    Curve.Begin(118);    
+410.193;    Curve.End();    
+
+420;        Curve.BeginTransition();    Structure['GradualDiminution_P'].Put('',-2,0,0,0,0,0,1,1);
+460;        Curve.Begin(-195, -0.05);   Structure['Curve_P'].Put('',-2,0,0,0,0,0,1,1);
+870;        Curve.BeginTransition();    Structure['Curve_P'].Put('',-2,0,0,0,0,0,1,1);    
+880;        Curve.End();                Structure['GradualDiminution_P'].Put('',-2,0,0,0,0,0,1,1);
+
+1120;       Curve.BeginTransition();    Structure['GradualDiminution_P'].Put('',-2,0,0,0,0,0,1,1);
+1135;       Curve.Begin(-1500, 0);      Structure['Curve_P'].Put('',-2,0,0,0,0,0,1,1);
+1165;       Curve.BeginTransition();    // Structure['GradualDiminution_P'].Put('',-2,0,0,0,0,0,1,1);
+1175;                                   Structure['Curve_P'].Put('',-2,0,0,0,0,0,1,1);
+1185;       Curve.Begin( 1500, 0);      // Structure['Curve_P'].Put('',-2,0,0,0,0,0,1,1);
+1215;       Curve.BeginTransition();    Structure['Curve_P'].Put('',-2,0,0,0,0,0,1,1);
+1230;       Curve.End();                Structure['GradualDiminution_P'].Put('',-2,0,0,0,0,0,1,1);
+
+// -------------------------------------------------------------------------- //
+//      勾配データ(自線下り)                                                  //
+// -------------------------------------------------------------------------- //
+
+413;        Gradient.BeginTransition(); 
+425;                                    Structure['Gp_UL'].Put('',-2,0,0,0,0,0,1,1);
+437;        Gradient.Begin(8.0);
+
+473;        Gradient.BeginTransition();
+525;                                    Structure['Gp_DU'].Put('',-2,0,0,0,0,0,1,1);
+577;        Gradient.Begin(-18.0);
+
+644;        Gradient.BeginTransition();
+680;                                    Structure['Gp_DD'].Put('',-2,0,0,0,0,0,1,1);
+716;        Gradient.Begin(-0.4);
+845;        Gradient.BeginTransition();
+850;        Gradient.Begin(-0.5);
+1297;       Gradient.BeginTransition();
+1303;       Gradient.Begin( 1.5);
+1477;       Gradient.BeginTransition();
+1483;       Gradient.Begin( 0.0);
+1517;       Gradient.BeginTransition();
+1523;       Gradient.Begin(-1.8);
+1671;       Gradient.BeginTransition();
+1689;       Gradient.Begin(-8.0);
+1841;       Gradient.BeginTransition();
+1859;       Gradient.Begin(-2.0);
+2069;       Gradient.BeginTransition();
+2071;       Gradient.Begin(-1.7);
+2197;       Gradient.BeginTransition();
+2203;       Gradient.Begin( 0.5);
+
+// -------------------------------------------------------------------------- //
+//      線形データ(兵庫駅和田岬線非電番線)                                    //
+// -------------------------------------------------------------------------- //
+365;        Track['hyogo_wada_0'].X.Interpolate(-3.750      , 118);    
+379.395;    Track['hyogo_wada_0'].X.Interpolate(-3.750+0.884,   0);    
+395.798;    Track['hyogo_wada_0'].X.Interpolate(-3.750+2.866,-118);    
+410.193;    Track['hyogo_wada_0'].X.Interpolate(-3.750+3.750,   0);
+
+// -------------------------------------------------------------------------- //
+//      線形データ(兵庫駅鷹取方面進出)                                        //
+// -------------------------------------------------------------------------- //
+365;        Track['hyogo_takatori'].X.Interpolate(0,118);    
+379.395;    Track['hyogo_takatori'].X.Interpolate(0.884,0);    
+395.798;    Track['hyogo_takatori'].X.Interpolate(2.866,239);    
+410.193;    Track['hyogo_takatori'].X.Interpolate(4.50,0);    
+
+// -------------------------------------------------------------------------- //
+//      線形データ(兵庫駅鷹取方面進出/非電化番線→鷹取進出)                   //
+// -------------------------------------------------------------------------- //
+365;        Track['hyogo_wada_0_takatori'].X.Interpolate(-3.75, 59);    
+379.395;    Track['hyogo_wada_0_takatori'].X.Interpolate(-3.75 + 1.778,  0);    
+395.798;    Track['hyogo_wada_0_takatori'].X.Interpolate(-3.75 + 5.732,-118);    
+410.193;    Track['hyogo_wada_0_takatori'].X.Interpolate( 4.50,    0);    
+420;        Track['hyogo_wada_0_takatori'].X.Interpolate( 5.65,  700);
+440;        Track['hyogo_wada_0_takatori'].X.Interpolate( 8.10,  200);
+460;        Track['hyogo_wada_0_takatori'].X.Interpolate(11.80,  250);   
+500;        Track['hyogo_wada_0_takatori'].X.Interpolate(25.00,    0);   
+
+// -------------------------------------------------------------------------- //
+//      線形データ(兵庫駅山陽本線)                                            //
+// -------------------------------------------------------------------------- //
+220;        Track['sanyo'].Y.Interpolate(-3,0);
+245;        Track['sanyo'].X.Interpolate(3.8+13.1-1.8,  1000);
+275;        Track['sanyo'].X.Interpolate(3.8+10.90-1.8,  500);
+295;        Track['sanyo'].X.Interpolate(3.8+10.10-1.8, 1000);
+315;        Track['sanyo'].X.Interpolate(3.8+10.00-1.8,    0);
+430;        Track['sanyo'].Y.Interpolate(-3,0);
+
+365;        Track['sanyo'].X.Interpolate(3.8+8.2      , 118);    
+379.395;    Track['sanyo'].X.Interpolate(3.8+8.2+0.884,   0);    
+395.798;    Track['sanyo'].X.Interpolate(3.8+8.2+2.866,-118);    
+410.193;    Track['sanyo'].X.Interpolate(3.8+8.2+3.750,   0);    
+420;        Track['sanyo'].X.Interpolate(15.75,         390);   
+460;        Track['sanyo'].X.Interpolate(18.00,         195);   
+500;        Track['sanyo'].X.Interpolate(28.00,           0);   
+
+// -------------------------------------------------------------------------- //
+//      線形データ（旧和田岬線勾配）                                          //
+// -------------------------------------------------------------------------- //
+220;        Track['hyogo_wada_old'].X.Interpolate(3.8+14.25, 0);
+            Track['hyogo_wada_old'].Y.Interpolate(1, 0);
+
+255;        Track['hyogo_wada_old'].X.Interpolate(3.8+12.30, 1000);
+275;        Track['hyogo_wada_old'].X.Interpolate(3.8+10.90,  500);
+295;        Track['hyogo_wada_old'].X.Interpolate(3.8+10.10, 1000);
+315;        Track['hyogo_wada_old'].X.Interpolate(3.8+10.00,    0);
+
+365;        Track['hyogo_wada_old'].X.Interpolate(3.8+10      , 118);    
+379.395;    Track['hyogo_wada_old'].X.Interpolate(3.8+10+0.884,   0);
+395.798;    Track['hyogo_wada_old'].X.Interpolate(3.8+10+2.866,-118);
+410.193;    Track['hyogo_wada_old'].X.Interpolate(3.8+10+3.750,   0);    
+
+410;        Track['hyogo_wada_old'].Y.Interpolate(4.45, 0);
+
+420;        Track['hyogo_wada_old'].X.Interpolate(1.8+15.75,         390);   
+460;        Track['hyogo_wada_old'].X.Interpolate(1.8+18.00,         195);   
+500;        Track['hyogo_wada_old'].X.Interpolate(1.8+28.00,           0);   
+
+220;        Track['hyogo_wada_old_kijun'].X.Interpolate( 0.5, 0);
+            Track['hyogo_wada_old_kijun'].Y.Interpolate(-0.5, 0);
+
+365;        Track['hyogo_wada_old_kijun'].X.Interpolate(0.500, 118);
+379.395;    Track['hyogo_wada_old_kijun'].X.Interpolate(1.384,   0);
+395.798;    Track['hyogo_wada_old_kijun'].X.Interpolate(3.366, 236); 
+410.193;    Track['hyogo_wada_old_kijun'].X.Interpolate(5.000,   0);    
+
+420;        Track['hyogo_wada_old_kijun'].X.Interpolate( 6.15,  700);
+440;        Track['hyogo_wada_old_kijun'].X.Interpolate( 8.60,  200);
+460;        Track['hyogo_wada_old_kijun'].X.Interpolate(12.30,  250);   
+500;        Track['hyogo_wada_old_kijun'].X.Interpolate(25.50,    0);   
+
+// -------------------------------------------------------------------------- //
+//      線形データ(川崎重工引込線1)                                           //
+// -------------------------------------------------------------------------- //
+835;        Track['kawasaki_hikikomi_1'].X.Interpolate( 0.00, 195);    
+870;        Track['kawasaki_hikikomi_1'].X.Interpolate( 3.25,  95);
+880;        Track['kawasaki_hikikomi_1'].X.Interpolate( 5.75, 200);
+950;        Track['kawasaki_hikikomi_1'].X.Interpolate(45.00,   0);
+// -------------------------------------------------------------------------- //
+//      線形データ(川崎重工引込線2)                                           //
+// -------------------------------------------------------------------------- //
+880;        Track['kawasaki_hikikomi_2'].X.Interpolate( 5.75,   0);
+910;        Track['kawasaki_hikikomi_2'].X.Interpolate(15.50, 200);
+950;        Track['kawasaki_hikikomi_2'].X.Interpolate(35.00,   0);
+// -------------------------------------------------------------------------- //
+//      線形データ(川崎重工引込線3)                                           //
+// -------------------------------------------------------------------------- //
+
+// -------------------------------------------------------------------------- //
+//      線形データ(川崎重工前線路領地基準線(右側)                             //
+// -------------------------------------------------------------------------- //
+825;        Track['kawasaki_kijun_1'].X.Interpolate(12.80, 185);
+870;        Track['kawasaki_kijun_1'].X.Interpolate( 6.08, 390);
+880;        Track['kawasaki_kijun_1'].X.Interpolate( 6.00,   0);
+
+// -------------------------------------------------------------------------- //
+//      線形データ(川崎重工領地基準線(塀)                                     //
+// -------------------------------------------------------------------------- //
+825;        Track['kawasaki_kijun_2'].X.Interpolate(12.80+6, 185);
+870;        Track['kawasaki_kijun_2'].X.Interpolate( 6.08+6, 390);
+880;        Track['kawasaki_kijun_2'].X.Interpolate( 6.00+6,   0);
+
+// ========================================================================== //
+//                                                                            //
+//      線形データ(上り)                                                      //
+//                                                                            //
+// ========================================================================== //

@@ -1,0 +1,97 @@
+BveTs Structure List 1.00
+
+# ---- 背景画像
+Bg_fine_summer,         ..\名鉄名古屋本線.Re\Structure\GeneralStr_png\BG\Bg_fine_summer.x
+
+# ---- 地面
+Grass,                  ..\名鉄名古屋本線.Re\Structure\GeneralStr_png\Nature\Ground\Grass.x
+
+# ---- レール
+tr_bal_5m_B,            ..\..\Uchibo20\Structures\Track\tr_bal_5m_B.x
+
+# ---- 兵庫駅
+hyogo_sta_form_1,       E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\兵庫駅\out\hyogo_sta_form_1.x
+hyogo_sta_form_2,       E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\兵庫駅\out\hyogo_sta_form_2.x
+
+# ---- 和田岬駅
+sanyo_kouka_R,          E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\山陽本線_高架\sanyo_kouka_R.x
+
+dote_1,                 E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路回り\dote_1.x
+
+# ---- レールフェンス
+rail_fence_L,           E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路回り\rail_fence_L.x
+rail_fence_R,           E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路回り\rail_fence_R.x
+rail_fence_25L,         E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路回り\rail_fence_25L.x
+rail_fence_25R,         E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路回り\rail_fence_25R.x
+rail_fence_wall_25L,    E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路回り\rail_fence_wall_25L.x
+rail_fence_wall_25R,    E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路回り\rail_fence_wall_25R.x
+
+fence_block_1_L,        E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路回り\fence_block_1_L.x
+fence_block_2_L,        E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路回り\fence_block_2_L.x
+fence_block_3_L,        E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路回り\fence_block_3_L.x
+fence_block_4_L,        E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路回り\fence_block_4_L.x
+fence_block_5_R,        E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路回り\fence_block_5_R.x
+fence_block_6_R,        E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路回り\fence_block_6_R.x
+fence_block_7_R,        E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路回り\fence_block_7_R.x
+
+
+fence_gate_1-1,         E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路回り\fence_gate_1-1.x
+fence_gate_1-2,         E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路回り\fence_gate_1-2.x
+
+fence_2_R,              E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路回り\fence_2_R.x
+fence_2_L,              E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路回り\fence_2_L.x
+
+
+jougi,                  E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路回り\jougi.x               
+
+# ---- 道床間の地面
+dosyo_aida_1_L,     E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路回り\dosyo_aida_1_L.x
+dosyo_aida_1_R,     E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路回り\dosyo_aida_1_R.x
+
+dosyo_1_L,          E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路\dosyo_1_L.x
+dosyo_1_R,          E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路\dosyo_1_R.x
+
+# ---- 地面
+ground_test_1,        E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\地面\ground_test_1.x
+ground_test_2,        E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\地面\ground_test_2.x
+
+# ---- 道路
+douro_1,            E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\道路\douro_1.x
+
+# ---- オーバーパス
+overpass_1,         E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\オーバーパス\overpass_1.x
+
+# ---- 建物 
+ur_kyanaru_1,       E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\ur_kyanaru_1.x
+ur_kyanaru_2,       E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\ur_kyanaru_2.x
+kobe_hosen_office_1,       E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\kobe_hosen_office_1.x
+kawaju_1,           E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\kawaju_1_no_tex.x
+kawaju_1,           E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\kawaju_1.x
+kawaju_2,           E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\kawaju_2.x
+kawaju_3,           E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\kawaju_3.x
+
+# ---- キロポスト
+kilopost3sk,        ..\名鉄名古屋本線.Re\Structure\GeneralStr_png\Accessory\Posts\KiloPosts\kilopost3sk.x
+kilopost31ky,       ..\名鉄名古屋本線.Re\Structure\GeneralStr_png\Accessory\Posts\KiloPosts\kilopost31ky.x
+kilopost32ky,       ..\名鉄名古屋本線.Re\Structure\GeneralStr_png\Accessory\Posts\KiloPosts\kilopost32ky.x
+kilopost33ky,       ..\名鉄名古屋本線.Re\Structure\GeneralStr_png\Accessory\Posts\KiloPosts\kilopost33ky.x
+kilopost34ky,       ..\名鉄名古屋本線.Re\Structure\GeneralStr_png\Accessory\Posts\KiloPosts\kilopost34ky.x
+kilopost35ky,       ..\名鉄名古屋本線.Re\Structure\GeneralStr_png\Accessory\Posts\KiloPosts\kilopost34ky.x
+kilopost36ky,       ..\名鉄名古屋本線.Re\Structure\GeneralStr_png\Accessory\Posts\KiloPosts\kilopost36ky.x
+kilopost37ky,       ..\名鉄名古屋本線.Re\Structure\GeneralStr_png\Accessory\Posts\KiloPosts\kilopost37ky.x
+kilopost38ky,       ..\名鉄名古屋本線.Re\Structure\GeneralStr_png\Accessory\Posts\KiloPosts\kilopost38ky.x
+kilopost39ky,       ..\名鉄名古屋本線.Re\Structure\GeneralStr_png\Accessory\Posts\KiloPosts\kilopost39ky.x
+
+# ---- 勾配標識
+Gp_DD,              ..\名鉄名古屋本線.Re\Structure\GeneralStr_png\Accessory\Posts\GradientPost\Gp_DD.x
+Gp_DL,              ..\名鉄名古屋本線.Re\Structure\GeneralStr_png\Accessory\Posts\GradientPost\Gp_DL.x
+Gp_DU,              ..\名鉄名古屋本線.Re\Structure\GeneralStr_png\Accessory\Posts\GradientPost\Gp_DU.x
+Gp_LD,              ..\名鉄名古屋本線.Re\Structure\GeneralStr_png\Accessory\Posts\GradientPost\Gp_LD.x
+Gp_LU,              ..\名鉄名古屋本線.Re\Structure\GeneralStr_png\Accessory\Posts\GradientPost\Gp_LU.x
+Gp_UD,              ..\名鉄名古屋本線.Re\Structure\GeneralStr_png\Accessory\Posts\GradientPost\Gp_UD.x
+Gp_UL,              ..\名鉄名古屋本線.Re\Structure\GeneralStr_png\Accessory\Posts\GradientPost\Gp_UL.x
+Gp_UU,              ..\名鉄名古屋本線.Re\Structure\GeneralStr_png\Accessory\Posts\GradientPost\Gp_UU.x
+
+# ---- 曲線標識
+Curve_P,            ..\名鉄名古屋本線.Re\Structure\GeneralStr_png\Accessory\Posts\CurvePosts\Curve_P.x
+GradualDiminution_P,..\名鉄名古屋本線.Re\Structure\GeneralStr_png\Accessory\Posts\CurvePosts\GradualDiminution_P.x
