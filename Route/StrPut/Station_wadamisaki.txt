@@ -16,3 +16,29 @@ BveTs Map 2.02
 //                                                                            //
 // ========================================================================== //
 0;
+
+// -------------------------------------------------------------------------- //
+//      和田岬線ホーム(下り)                                                  //
+// -------------------------------------------------------------------------- //
+2075;   Repeater['wadamisaki_sta_form'].Begin0('',1,5,5,'wada_sta_form_1');
+        Repeater['wadamisaki_sta_form_saku'].Begin0('',1,5,5,'wada_sta_form_saku_1');
+2125;   Structure['wada_sta_form_pole_1'].put0('',1,5);
+        Repeater['wadamisaki_sta_form'].Begin0('',1,5,5,'wada_sta_form_2');
+2145;   Structure['wada_sta_form_ekihyo_2'].put0('',1,5);
+2155;   Structure['wada_sta_form_ekihyo_2'].put0('',1,5);
+2165;   Structure['wada_sta_form_ekihyo_2'].put0('',1,5);
+2175;   Repeater['wadamisaki_sta_form'].Begin0('',1,5,5,'wada_sta_form_1');
+2195;   Structure['wada_sta_form_ekihyo_1'].put0('',1,5);
+2210;   Repeater['wadamisaki_sta_form'].End();
+        Repeater['wadamisaki_sta_form_saku'].End();
+2210;   Structure['wada_sta_form_3'].put0('',1,5);
+2222.5; Structure['wada_sta_ekimae_1'].put0('',1,0);
+2262.5; Structure['wada_sta_ekimae_2'].put0('',1,0);
+2222.5; Repeater['MainTrack_RailFence_R'].Begin(, 1.75, 0.62,0,0,0,0,1,1,1,'fence_1_R');
+2292.5; Repeater['MainTrack_RailFence_R'].End();
+        Structure['fence_1'].put('', 0,0.62,,,,,1,5);
+        Structure['fence_1'].put('', 1,0.62,,,,,1,5);
+        Structure['fence_1'].put('', 2,0.62,,,,,1,5);
+        Structure['fence_1'].put('', 3,0.62,,,,,1,5);
+        Structure['fence_1'].put('',-1,0.62,,,,,1,5);
+        Structure['fence_1'].put('',-2,0.62,,,,,1,5);

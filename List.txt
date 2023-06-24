@@ -16,6 +16,19 @@ hyogo_sta_form_2,       E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\�
 # ---- 和田岬駅
 sanyo_kouka_R,          E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\山陽本線_高架\sanyo_kouka_R.x
 
+wada_sta_form_1,        E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\和田岬駅\out\wadamisaki_sta_form_1.x
+wada_sta_form_2,        E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\和田岬駅\out\wadamisaki_sta_form_2.x
+wada_sta_form_3,        E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\和田岬駅\out\wadamisaki_sta_form_3.x
+wada_sta_form_pole_1,   E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\和田岬駅\out\wadamisaki_sta_form_pole_1.x
+wada_sta_form_saku_1,   E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\和田岬駅\out\wadamisaki_sta_form_saku_1.x
+wada_sta_form_ekihyo_1, E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\和田岬駅\out\wadamisaki_sta_form_ekihyo_1.x
+wada_sta_form_ekihyo_2, E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\和田岬駅\out\wadamisaki_sta_form_ekihyo_2.x
+
+wada_sta_ekimae_1,      E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\和田岬駅\out\wadamisaki_sta_ekimae_1.x
+wada_sta_ekimae_2,      E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\和田岬駅\out\wadamisaki_sta_ekimae_2.x
+
+
+
 dote_1,                 E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路回り\dote_1.x
 
 # ---- レールフェンス
@@ -40,7 +53,9 @@ fence_gate_1-2,         E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\�
 
 fence_2_R,              E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路回り\fence_2_R.x
 fence_2_L,              E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路回り\fence_2_L.x
-
+fence_1,                E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路回り\fence_1.x
+fence_1_R,              E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路回り\fence_1_R.x
+fence_1_L,              E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路回り\fence_1_L.x
 
 jougi,                  E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路回り\jougi.x               
 

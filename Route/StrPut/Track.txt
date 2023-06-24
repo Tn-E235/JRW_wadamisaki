@@ -15,7 +15,7 @@ BveTs Map 2.02
 //      和田岬線(自線下り)                                                    //
 // -------------------------------------------------------------------------- //
 0;              Repeater['MainTrack_Rail'].Begin0('',3,5,5,'tr_bal_5m_B');
-2500;           Repeater['MainTrack_Rail'].End();
+2280;           Repeater['MainTrack_Rail'].End();
 
 // -------------------------------------------------------------------------- //
 //      線形データ(川崎重工引込線1)                                           //
@@ -46,6 +46,14 @@ BveTs Map 2.02
 920;            Repeater['MainTrack_RailFence_R'].Begin('kawasaki_kijun_1', 0,-0.1,0,0,0,0,1,1.5,1.5,'fence_2_R');
 920;            Repeater['MainTrack_RailFence_R'].Begin('kawasaki_kijun_1', 0,-0.1,0,0,0,0,1,1.5,1.5,'fence_2_R');
 1085;           Repeater['MainTrack_RailFence_R'].End();
+
+
+2000;           Repeater['MainTrack_RailFence_L'].Begin(, -5,-0.1,0,0,0,0,1,1,1,'fence_1_L');
+2292;           Repeater['MainTrack_RailFence_L'].End();
+
+
+
+
 
 // -------------------------------------------------------------------------- //
 //      兵庫　鷹取方面分岐
