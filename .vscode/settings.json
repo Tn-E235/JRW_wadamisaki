@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "*.txt": "bve-map-2.02"
+    },
+    "[bve-map-2.02]": {
+        "editor.unicodeHighlight.ambiguousCharacters": false,
+        "editor.unicodeHighlight.invisibleCharacters": false,
+        "editor.tabSize": 4,
+        "editor.minimap.enabled": false,
+        "editor.wordWrap": "off",
+    },
+}
