@@ -8,6 +8,11 @@ Grass,                  ..\名鉄名古屋本線.Re\Structure\GeneralStr_png\Nat
 
 # ---- レール
 tr_bal_5m_B,            ..\..\Uchibo20\Structures\Track\tr_bal_5m_B.x
+humikiri_6,             E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路\humikiri_6.x
+
+# ---- 架線柱
+kasen_pole_1_L,           E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\架線柱\pole_1_L.x
+kasen_pole_1_R,           E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\架線柱\pole_1_R.x
 
 # ---- 兵庫駅
 hyogo_sta_form_1,       E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\兵庫駅\out\hyogo_sta_form_1.x

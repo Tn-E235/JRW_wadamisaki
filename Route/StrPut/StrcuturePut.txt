@@ -15,6 +15,13 @@ include './Route/StrPut/Buildings.txt';
 include './Route/StrPut/Station_wadamisaki.txt';
 include './Route/StrPut/Station_hyogo.txt';
 include './Route/StrPut/KawasakiSyaryo.txt';
+include './Route/StrPut/Humikiri.txt';
+# include '';
+# include '';
+# include '';
+# include '';
+# include '';
+# include '';
 # include '';
 
 // ---- 背景画像 ------------------------------------------------------------ //

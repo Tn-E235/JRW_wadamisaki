@@ -48,8 +48,11 @@ BveTs Map 2.02
 1085;           Repeater['MainTrack_RailFence_R'].End();
 
 
-2000;           Repeater['MainTrack_RailFence_L'].Begin(, -5,-0.1,0,0,0,0,1,1,1,'fence_1_L');
+2010;           Repeater['MainTrack_RailFence_L'].Begin(, -5,-0.1,0,0,0,0,1,1,1,'fence_1_L');
 2292;           Repeater['MainTrack_RailFence_L'].End();
+
+2020;           Repeater['MainTrack_RailFence_R'].Begin(,  5,-0.1,0,0,0,0,1,1,1,'fence_1_R');
+2080;           Repeater['MainTrack_RailFence_R'].End();
 
 
 
