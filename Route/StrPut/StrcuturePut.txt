@@ -16,7 +16,7 @@ include './Route/StrPut/Station_wadamisaki.txt';
 include './Route/StrPut/Station_hyogo.txt';
 include './Route/StrPut/KawasakiSyaryo.txt';
 include './Route/StrPut/Humikiri.txt';
-# include '';
+include './Route/StrPut/Kasen.txt';
 # include '';
 # include '';
 # include '';

@@ -28,6 +28,13 @@ BveTs Map 2.02
 1085;           Repeater['fence_block_L'].End();    
 
 // 川重外壁
+851.25;          Structure['fence_block_6_R'].Put('kawasaki_kijun_1', 3.25+5.3,0,0,0,-30,0,1,10);
+847.6;          Structure['fence_block_6_R'].Put('kawasaki_kijun_1', 3.25+7.8,0,0,0,-30,0,1,10);
+844.9;          Structure['fence_block_6_R'].Put('kawasaki_kijun_1', 3.25+11.3,0,0,0,-45,0,1,10);
+842.3;          Structure['fence_block_6_R'].Put('kawasaki_kijun_1', 3.25+14.9,0,0,0,-45,0,1,10);
+839.8;          Structure['fence_block_6_R'].Put('kawasaki_kijun_1', 3.25+18.4,0,0,0,-45,0,1,10);
+837.3;          Structure['fence_block_6_R'].Put('kawasaki_kijun_1', 3.25+21.9,0,0,0,-45,0,1,10);
+
 855;            Repeater['fence_block_R'].Begin('kawasaki_kijun_2', 0,0,0,0,0,0,1,5,5,'fence_block_6_R');
 885;            Repeater['fence_block_R'].End();
 885;            Structure['fence_gate_1-1'].Put('kawasaki_kijun_2', 0.2,0,0,0,0,0,1,10);
@@ -38,11 +45,25 @@ BveTs Map 2.02
 1085;           Repeater['fence_block_R'].End();
 
 
-575;            Repeater['MainTrack_dosyo_L'].Begin('ground_level', 0,0.01,0,0,0,0,1,10,10,'dosyo_1_L');
-855;            Repeater['MainTrack_dosyo_R'].Begin('ground_level', 0,0.01,0,0,0,0,1,10,10,'dosyo_1_R');
-1100;           Repeater['MainTrack_dosyo_L'].End();
-1100;           Repeater['MainTrack_dosyo_R'].End();
+830;            Repeater['MainTrack_RailFence_R'].Begin('kawasaki_kijun_1', 0,-0.1,0,0,0,0,1,1,1,'fence_1_R'); 
+855;            Repeater['MainTrack_RailFence_R'].Begin('kawasaki_kijun_1', 0,-0.1,0,0,0,0,1,2.5,2.5,'fence_block_5_R');
+875;            Repeater['MainTrack_RailFence_R'].End();
 
 // 道路
-855;            Repeater['douro_1'].Begin('kawasaki_kijun_1', 3.25,-0.05,0,0,0,0,1,5,5,'douro_1');
-1125;           Repeater['douro_1'].End();
+835;            Repeater['kawasaki_douro_1'].Begin('kawasaki_kijun_1', 3.25,-0.05,0,0,0,0,1,5,5,'douro_1');
+1125;           Repeater['kawasaki_douro_1'].End();
+830;            Structure['douro_1'].Put('kawasaki_kijun_1', 3.25+0,-0.05,0,0,0,0,1,10);
+830;            Structure['douro_1'].Put('kawasaki_kijun_1', 3.25+6,-0.05,0,0,0,0,1,10);
+830;            Structure['douro_1'].Put('kawasaki_kijun_1', 3.25+11,-0.05,0,0,0,0,1,10);
+830;            Structure['douro_1'].Put('kawasaki_kijun_1', 3.25+16,-0.05,0,0,0,0,1,10);
+830;            Structure['douro_1'].Put('kawasaki_kijun_1', 3.25+21,-0.05,0,0,0,0,1,10);
+835;            Structure['douro_1'].Put('kawasaki_kijun_1', 3.25+6,-0.05,0,0,0,0,1,10);
+835;            Structure['douro_1'].Put('kawasaki_kijun_1', 3.25+11,-0.05,0,0,0,0,1,10);
+835;            Structure['douro_1'].Put('kawasaki_kijun_1', 3.25+16,-0.05,0,0,0,0,1,10);
+835;            Structure['douro_1'].Put('kawasaki_kijun_1', 3.25+21,-0.05,0,0,0,0,1,10);
+840;            Structure['douro_1'].Put('kawasaki_kijun_1', 3.25+6,-0.05,0,0,0,0,1,10);
+840;            Structure['douro_1'].Put('kawasaki_kijun_1', 3.25+11,-0.05,0,0,0,0,1,10);
+840;            Structure['douro_1'].Put('kawasaki_kijun_1', 3.25+16,-0.05,0,0,0,0,1,10);
+845;            Structure['douro_1'].Put('kawasaki_kijun_1', 3.25+6,-0.05,0,0,0,0,1,10);
+845;            Structure['douro_1'].Put('kawasaki_kijun_1', 3.25+11,-0.05,0,0,0,0,1,10);
+850;            Structure['douro_1'].Put('kawasaki_kijun_1', 3.25+6,-0.05,0,0,0,0,1,10);

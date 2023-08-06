@@ -28,7 +28,7 @@ BveTs Map 2.02
 220;            Repeater['MainTrack_RailFence_R'].Begin('',0,-0.5,0,0,0,0,1,25,25,'rail_fence_25R');
 300;            Repeater['MainTrack_RailFence_R'].End();
 
-400;            Repeater['MainTrack_RailFence_L'].Begin('',0,-0.5,0,0,0,0,1,25,25,'rail_fence_25L');
+425;            Repeater['MainTrack_RailFence_L'].Begin('',0,-0.5,0,0,0,0,1,25,25,'rail_fence_25L');
 500;            // Repeater['MainTrack_RailFence_R'].Begin('',0,-0.5,0,0,0,0,1, 5, 5,'rail_fence_R');
 500;            Repeater['MainTrack_RailFence_R'].Begin('',0,-0.5,0,0,0,0,1,25,25,'rail_fence_25R');
 650;        
@@ -38,8 +38,8 @@ BveTs Map 2.02
 425;            Repeater['MainTrack_RailFenceWall_L'].Begin('',0,0,0,0,0,0,1,25,25,'rail_fence_wall_25L');
 660;            Repeater['MainTrack_RailFenceWall_L'].End();
 
-855;            Repeater['MainTrack_RailFence_R'].Begin('kawasaki_kijun_1', 0,-0.1,0,0,0,0,1,2.5,2.5,'fence_block_5_R');
-875;            Repeater['MainTrack_RailFence_R'].End();
+755;            Repeater['MainTrack_RailFence_R'].Begin(, 5.75,-0.4,0,0,0,0,1,1,1,'fence_1_R'); 
+805;            Repeater['MainTrack_RailFence_R'].End();
 
 889;            Repeater['MainTrack_RailFence_R'].Begin('kawasaki_kijun_1', 0,-0.1,0,0,0,0,1,1.5,1.5,'fence_2_R');
 895;            Repeater['MainTrack_RailFence_R'].Begin('kawasaki_kijun_1', 0,-0.1,0,0,0,0,1,2.5,2.5,'fence_block_5_R');
@@ -100,7 +100,7 @@ distance+5;     Structure['dosyo_aida_1_L'].PutBetWeen('','hyogo_wada_0_takatori
 410;            Repeater['hyogo_wada_0_Rail'].End();
 
 0;              Repeater['hyogo_wada_0_RailFence_L'].Begin('hyogo_wada_0',0,-0.5,0,0,0,0,1,25,25,'rail_fence_25L');
-410;            Repeater['hyogo_wada_0_RailFence_L'].End();
+425;            Repeater['hyogo_wada_0_RailFence_L'].End();
 
 365;            Repeater['hyogo_takatori_Rail'].Begin('hyogo_takatori',0,0,0,0,0,0,3,5,5,'tr_bal_5m_B');
 410;            Repeater['hyogo_takatori_Rail'].End();

@@ -9,10 +9,16 @@ Grass,                  ..\名鉄名古屋本線.Re\Structure\GeneralStr_png\Nat
 # ---- レール
 tr_bal_5m_B,            ..\..\Uchibo20\Structures\Track\tr_bal_5m_B.x
 humikiri_6,             E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路\humikiri_6.x
+humikiri_5,             E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路\humikiri_5.x
+humikiri_1_1,           E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路\humikiri_1_1.x
+humikiri_1_1_s,         E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路\humikiri_1_1_s.x
+humikiri_1_1_e,         E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路\humikiri_1_1_e.x
 
 # ---- 架線柱
 kasen_pole_1_L,           E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\架線柱\pole_1_L.x
 kasen_pole_1_R,           E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\架線柱\pole_1_R.x
+kasen_pole_2_L,           E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\架線柱\pole_2_L.x
+kasen_pole_2_R,           E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\架線柱\pole_2_R.x
 
 # ---- 兵庫駅
 hyogo_sta_form_1,       E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\兵庫駅\out\hyogo_sta_form_1.x
@@ -84,12 +90,16 @@ overpass_1,         E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テク
 # ---- 建物 
 ur_kyanaru_1,       E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\ur_kyanaru_1.x
 ur_kyanaru_2,       E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\ur_kyanaru_2.x
-kobe_hosen_office_1,       E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\kobe_hosen_office_1.x
+kobe_hosen_office_1,E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\kobe_hosen_office_1.x
 kawaju_1,           E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\kawaju_1_no_tex.x
 kawaju_1,           E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\kawaju_1.x
 kawaju_2,           E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\kawaju_2.x
 kawaju_3,           E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\kawaju_3.x
-
+kawaju_4,           E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\kawaju_4.x
+kawaju_5-1,         E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\kawaju_5-1.x
+kawaju_5-2,         E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\kawaju_5-2.x
+fujiyoshi_1,        E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\fujiyoshi_1.x
+fujiyoshi_2,        E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\fujiyoshi_2.x
 # ---- キロポスト
 kilopost3sk,        ..\名鉄名古屋本線.Re\Structure\GeneralStr_png\Accessory\Posts\KiloPosts\kilopost3sk.x
 kilopost31ky,       ..\名鉄名古屋本線.Re\Structure\GeneralStr_png\Accessory\Posts\KiloPosts\kilopost31ky.x
