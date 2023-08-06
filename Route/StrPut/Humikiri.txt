@@ -12,19 +12,24 @@ BveTs Map 2.02
 //      作成者    :Tn_E235                                                    //
 // ========================================================================== //
 
-// ---- 笠松通踏切 ---------------------------------------------------------- //
+// ---- [0.75kmP]明治第一踏切 ----------------------------------------------- //
+750;            Structure['humikiri_1_1'  ].Put0('',3,5);
+750;            Structure['humikiri_1_1_s'].Put0('',3,5);
+755;            Structure['humikiri_1_1_e'].Put0('',3,5);
+// ---- [1.1kmP]明和通踏切 -------------------------------------------------- //
+// ---- [1.22kmP]御所通踏切 ------------------------------------------------- //
+// ---- [1.38kmP]東尻池第5踏切 ---------------------------------------------- //
+// ---- [1.65kmP]御崎通踏切 ------------------------------------------------- //
+// ---- [1.92kmP]御崎本町踏切 ----------------------------------------------- //
+1930;           Structure['humikiri_5'].Put0('',1,20);
+                Repeater['MainTrack_RailFence_R'].Begin(,  5,-0.1,0,0,0,0,1,1,1,'fence_1_R'); 
+                Repeater['MainTrack_RailFence_L'].Begin(, -5,-0.1,0,0,0,0,1,1,1,'fence_1_L'); 
+1995;           Repeater['MainTrack_RailFence_R'].End();
+                Repeater['MainTrack_RailFence_L'].End();
+// ---- [2.00kmP]笠松通踏切 ------------------------------------------------- //
 2005;           Structure['humikiri_6'].Put0('',1,8.5);
-
-1520;           Repeater['MainTrack_dosyo_L'].Begin('ground_level',  0.5,0.25,0,0,0,0,1,10,10,'dosyo_1_L');
-                Repeater['MainTrack_dosyo_R'].Begin('ground_level', -0.5,0.25,0,0,0,0,1,10,10,'dosyo_1_R');
-2300;           Repeater['MainTrack_dosyo_L'].End();
-                Repeater['MainTrack_dosyo_R'].End();
 
 2010;           Repeater['douro_L'].Begin( ,-8.5,-0.05,0,0,0,0,1,5,5,'douro_1');
 2020;           Repeater['douro_R'].Begin( , 8.5,-0.05,0,0,0,0,1,5,5,'douro_1');
 2225;           Repeater['douro_R'].End();
 2225;           Repeater['douro_L'].End();
-
-
-850;            Repeater['kasen_pole'].Begin('ground_level',  0,0,0,0,0,0,1,40,40,'kasen_pole_1_L', 'kasen_pole_1_R');
-2300;           Repeater['kasen_pole'].End();
