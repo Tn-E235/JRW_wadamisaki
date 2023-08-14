@@ -65,6 +65,9 @@ BveTs Map 2.02
 
 420;        Curve.BeginTransition();    Structure['GradualDiminution_P'].Put('',-2,0,0,0,0,0,1,1);
 460;        Curve.Begin(-195, -0.05);   Structure['Curve_P'].Put('',-2,0,0,0,0,0,1,1);
+800;        Curve.BeginTransition();    Structure['Curve_P'].Put('',-2,0,0,0,0,0,1,1);    
+835;        Curve.Begin(-190,  0.00);
+
 870;        Curve.BeginTransition();    Structure['Curve_P'].Put('',-2,0,0,0,0,0,1,1);    
 880;        Curve.End();                Structure['GradualDiminution_P'].Put('',-2,0,0,0,0,0,1,1);
 
