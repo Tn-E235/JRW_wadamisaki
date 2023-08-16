@@ -21,13 +21,38 @@ BveTs Map 2.02
 // ---- [1.38kmP]東尻池第5踏切 ---------------------------------------------- //
 // ---- [1.65kmP]御崎通踏切 ------------------------------------------------- //
 // ---- [1.92kmP]御崎本町踏切 ----------------------------------------------- //
-1930;           Structure['humikiri_5'].Put0('',1,20);
+1900;           Structure['humikiri_name_6'].Put('',-3,-0.3,0,0,0,0,1,1);
+1930;           Structure['humikiri_6'].Put0('',1,20);
                 Repeater['MainTrack_RailFence_R'].Begin(,  5,-0.1,0,0,0,0,1,1,1,'fence_1_R'); 
                 Repeater['MainTrack_RailFence_L'].Begin(, -5,-0.1,0,0,0,0,1,1,1,'fence_1_L'); 
 1995;           Repeater['MainTrack_RailFence_R'].End();
                 Repeater['MainTrack_RailFence_L'].End();
 // ---- [2.00kmP]笠松通踏切 ------------------------------------------------- //
-2005;           Structure['humikiri_6'].Put0('',1,8.5);
+1990;           Structure['humikiri_name_7'].Put('',-3,-0.3,0,0,0,0,1,1);
+2005;           Structure['humikiri_7'].Put0('',1,0);
+
+// 左下
+2001;           Structure['humikiri_7_L-1'].Put('',-3,-0.25,0,0,0,0,1,1);
+2002.5;         Structure['syadanki_7_L-1'].Put('',-3,-0.25,0,0,0,0,1,1);
+2002;           Structure['humikiri_fence_R_2'].Put('',-4.95,-0.4,0,0,-90,0,1,1);
+2003;           Structure['humikiri_fence_L_1'].Put('',-4,-0.4,0,0,0,0,1,1);
+
+// 左上
+2012;           Structure['humikiri_fence_L_1'].Put('',-4,-0.4,0,0,0,0,1,1);
+2013;           Structure['humikiri_fence_R_2'].Put('',-4.95,-0.4,0.1,0,-90,0,1,1);
+
+// 右上
+2013;           Structure['syadanki_7_L-2'].Put('',-3,-0.25,0,0,0,0,1,1);
+2016;           Structure['humikiri_fence_R_1'].Put('', 4,-0.4,0,0,0,0,1,1);
+2017;           Structure['humikiri_fence_L_2'].Put('', 4.95,-0.4,0.1,0, 90,0,1,1);
+2017;           Structure['humikiri_7_R-1'].Put('', 3.9,-0.25,0,0,0,0,1,1);
+
+// 右下
+2006.5;         Structure['syadanki_7_R-1'].Put('', 3,-0.25,0,0,0,0,1,1);
+2007;           Structure['humikiri_fence_L_2'].Put('', 4.95,-0.4,0,0, 90,0,1,1);
+2008;           Structure['humikiri_fence_R_1'].Put('', 4,-0.4,0,0,0,0,1,1);
+
+2025;           Structure['humikiri_name_0'].Put('', 3,-0.3,0,0,0,0,1,1);
 
 2010;           Repeater['douro_L'].Begin( ,-8.5,-0.05,0,0,0,0,1,5,5,'douro_1');
 2020;           Repeater['douro_R'].Begin( , 8.5,-0.05,0,0,0,0,1,5,5,'douro_1');
