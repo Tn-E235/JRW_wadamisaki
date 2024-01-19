@@ -9,4 +9,7 @@
         "editor.minimap.enabled": false,
         "editor.wordWrap": "off",
     },
+    "[csv]":{
+        "files.encoding": "shiftjis",
+    },
 }
