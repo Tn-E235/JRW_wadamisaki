@@ -13,47 +13,138 @@ BveTs Map 2.02
 // ========================================================================== //
 
 // ---- [0.75kmP]明治第一踏切 ----------------------------------------------- //
-750;            Structure['humikiri_1_1'  ].Put0('',3,5);
-750;            Structure['humikiri_1_1_s'].Put0('',3,5);
-755;            Structure['humikiri_1_1_e'].Put0('',3,5);
+600;            Structure['syokken_base'].Put('', 3,-0.30,,,   ,,1,0);    
+
+715;            Structure['humikiri_name_1'].Put( '',-3,-0.30,,,   ,,1,0);
+750;            Structure['humikiri_ban_1'  ].Put0('',3,5);
+                Structure['humikiri_road_1'  ].Put0('',1,5);
+755;            Structure['humikiri_1_R'  ].Put($GL, 4,0,0,,   ,,0,0);
+749.5;          Structure['syadanki_7_R-1'].Put($GL, 3,0,0,,   ,,0,0);
+
+755;            Structure['humikiri_fence_R_1'].Put($GL, 4.00,0,0.0,,   ,,0,0);
+756;            Structure['humikiri_fence_L_2'].Put($GL, 4.95,0,0.1,, 90,,0,0);
+748.75;         Structure['humikiri_fence_L_2'].Put($GL, 4.95,0,0.0,, 90,,0,0);
+749.75;         Structure['humikiri_fence_R_1'].Put($GL, 4.00,0,0.0,,   ,,0,0);
+
+749.5;          Structure['fence1_1'  ].Put($GL, -3.5,0,0,,,,0,0);
+                Structure['fence1_1'  ].Put($GL, -5.0,0,0,,,,0,0);
+                Structure['fence1_1'  ].Put($GL, -6.5,0,0,,,,0,0);
+                Structure['fence1_1'  ].Put($GL, -8.0,0,0,,,,0,0);
+                Structure['fence1_1'  ].Put($GL, -9.5,0,0,,,,0,0);
+                Structure['fence1_1'  ].Put($GL,-11.0,0,0,,,,0,0);
+755.5;          Structure['fence1_1'  ].Put($GL, -3.5,0,0,,,,0,0);
+                Structure['fence1_1'  ].Put($GL, -5.0,0,0,,,,0,0);
+                Structure['fence1_1'  ].Put($GL, -6.5,0,0,,,,0,0);
+                Structure['fence1_1'  ].Put($GL, -8.0,0,0,,,,0,0);
+                Structure['fence1_1'  ].Put($GL, -9.5,0,0,,,,0,0);
+                Structure['fence1_1'  ].Put($GL,-11.0,0,0,,,,0,0);
 // ---- [1.1kmP]明和通踏切 -------------------------------------------------- //
+1080;           Structure['humikiri_name_2'].Put($GL,-3,0,,,   ,,1,1);
+1105;           Structure['humikiri_ban_2' ].Put('' ,  ,0,,,   ,,1,5);
+1105.6;         Structure['humikiri_road_2'].Put('' ,0,0,,,-15,,1,1);
+
+1100;           Structure['syokken_box_2R'].Put($GL, 3,0,0,,   ,,0,0);
+1104.5;         Structure['syadanki_7_R-1'].Put($GL, 3,0,0,,   ,,0,0);
+1101;           Structure['humikiri_2_L'].Put($GL,-3,0,0,,   ,,0,0);
+1112;           Structure['humikiri_2_R'].Put($GL, 4,0,0,,   ,,0,0);
+1110;           Structure['syadanki_7_L-2'].Put($GL,-3,0,0,,   ,,0,0);
+
+1111.5;         Structure['humikiri_fence_R_1'].Put($GL, 4.00,0,0.0,,   ,,0,0);
+1112.5;         Structure['humikiri_fence_L_2'].Put($GL, 4.95,0,0.1,, 90,,0,0);
+
+1103.75;        Structure['humikiri_fence_L_2'].Put($GL, 4.95,0,0.0,, 90,,0,0);
+1104.75;        Structure['humikiri_fence_R_1'].Put($GL, 4.00,0,0.0,,   ,,0,0);
+
+1101.5;           Structure['humikiri_fence_R_2'].Put('',-4.95,-0.4,0,0,-90,0,1,1);
+1102.5;           Structure['humikiri_fence_L_1'].Put('',-4,-0.4,0,0,0,0,1,1);
+
+// 左上
+1109.5;           Structure['humikiri_fence_L_1'].Put('',-4,-0.4,0,0,0,0,1,1);
+1110.5;           Structure['humikiri_fence_R_2'].Put('',-4.95,-0.4,0.1,0,-90,0,1,1);
+
 // ---- [1.22kmP]御所通踏切 ------------------------------------------------- //
+1190;           Structure['humikiri_name_3'].Put( '',-3,-0.30,,,   ,,1,1);
+1220;           Structure['humikiri_ban_3'].Put('',  ,-0.01,,,   ,,1,7);
+1221.5;         Structure['humikiri_road_2'].Put('' ,0,0,,,-15,,1,1);
+1219;           Structure['syadanki_7_R-1'].Put('', 3,-0.25,0,0,0,0,1,1);
+1218;           Structure['humikiri_3_L'].Put('',-3,-0.25,0,0,0,0,1,1);
+1229;           Structure['humikiri_7_R-1'].Put('', 3.9,-0.25,0,0,0,0,1,1);
+
+1217;           Structure['syadanki_7_L-1'].Put('',-3,-0.25,0,0,0,0,1,1);
+1226;           Structure['syadanki_7_L-2'].Put('',-3,-0.25,0,0,0,0,1,1);
+
+// 左下
+1218;           Structure['humikiri_fence_R_2'].Put('',-4.95,-0.4,0,0,-90,0,1,1);
+1219;           Structure['humikiri_fence_L_1'].Put('',-4,-0.4,0,0,0,0,1,1);
+// 左上
+1226;           Structure['humikiri_fence_L_1'].Put('',-4,-0.4,0,0,0,0,1,1);
+1227;           Structure['humikiri_fence_R_2'].Put('',-4.95,-0.4,0.1,0,-90,0,1,1);
+// 右下
+1219;           Structure['humikiri_fence_L_2'].Put('', 4.95,-0.4,0,0, 90,0,1,1);
+1220;           Structure['humikiri_fence_R_1'].Put('', 4,-0.4,0,0,0,0,1,1);
+// 右上
+1228;           Structure['humikiri_fence_R_1'].Put('', 4,-0.4,0,0,0,0,1,1);
+1229;           Structure['humikiri_fence_L_2'].Put('', 4.95,-0.4,0.1,0, 90,0,1,1);
+
 // ---- [1.38kmP]東尻池第5踏切 ---------------------------------------------- //
+1355;           Structure['humikiri_name_4'].Put('',-3,-0.30,,,  0,,1,0);
+1380;           Structure['humikiri_ban_4'].Put( '', 0,-0.01,,,  0,,1,0);
 // ---- [1.65kmP]御崎通踏切 ------------------------------------------------- //
+1585;           Structure['humikiri_name_5'].Put('',-3,-0.30,,,  0,,1,0);
+1625;           Structure['humikiri_ban_5'].Put( '', 0,-0.01,,,  0,,1,0);
 // ---- [1.92kmP]御崎本町踏切 ----------------------------------------------- //
-1900;           Structure['humikiri_name_6'].Put('',-3,-0.3,0,0,0,0,1,1);
-1930;           Structure['humikiri_6'].Put0('',1,20);
-                Repeater['MainTrack_RailFence_R'].Begin(,  5,-0.1,0,0,0,0,1,1,1,'fence_1_R'); 
-                Repeater['MainTrack_RailFence_L'].Begin(, -5,-0.1,0,0,0,0,1,1,1,'fence_1_L'); 
-1995;           Repeater['MainTrack_RailFence_R'].End();
-                Repeater['MainTrack_RailFence_L'].End();
+1885;           Structure['humikiri_name_6'].Put( '',-3,-0.3,,,  0,,1,0);
+1900;           Structure['humikiri_box_6-1'].Put('',-4, 0.2,,,  0,,1,0);
+1905;           Structure['humikiri_box_6-2'].Put('',-4, 0.2,,,  0,,1,0);
+
+1910;           Structure['humikiri_6'].Put0('',1,20);
+
+1906;           Structure['humikiri_6_L-3'].Put(    '',-4.5,-0.1, 0.5,,   0,,1,0);
+
+1910;           Structure['humikiri_6_R-1'].Put(    '', 4.5,-0.1, 1.0,,   0,,1,0);
+
+1926;           Structure['humikiri_6_L-2'].Put(    '',-4.5,-0.1, 0.0,,   0,,1,0);
+                Structure['humikiri_block'].Put(    '',-4.0, 0.0, 1.0,, 135,,1,0);
+
+1932;           Structure['humikiri_block'].Put(    '', 4.0, 0.0, 0.0,, -45,,1,0);
+                Structure['humikiri_6_R-2'].Put(    '', 4.5,-0.1, 1.0,,   0,,1,0);
+
+1946;           Structure['humikiri_6_L-3'].Put(    '',-4.50,-0.1, 0.5,,  0,,1,0);
+                Structure['humikiri_fence_L_1'].Put('',-4.00, 0.0, 0.0,,-45,,1,0);
+                Structure['humikiri_fence_R_2'].Put('',-4.75, 0.0, 0.5,,-90,,1,0);
+
+1952;           Structure['humikiri_fence_R_1'].Put('', 4.00, 0.0, 0.0,,-45,,1,0);
+                Structure['humikiri_fence_L_2'].Put('', 4.75, 0.0, 1.8,, 90,,1,0);
+                Structure['humikiri_6_R-3'].Put(    '', 4.50,-0.1, 1.0,,  0,,1,0);
+
 // ---- [2.00kmP]笠松通踏切 ------------------------------------------------- //
-1990;           Structure['humikiri_name_7'].Put('',-3,-0.3,0,0,0,0,1,1);
+1990;           Structure['humikiri_name_7'].Put(   '',-3.00,-0.3, 0.0,,  0,,1,0);
 2005;           Structure['humikiri_7'].Put0('',1,0);
 
 // 左下
-2001;           Structure['humikiri_7_L-1'].Put('',-3,-0.25,0,0,0,0,1,1);
-2002.5;         Structure['syadanki_7_L-1'].Put('',-3,-0.25,0,0,0,0,1,1);
-2002;           Structure['humikiri_fence_R_2'].Put('',-4.95,-0.4,0,0,-90,0,1,1);
-2003;           Structure['humikiri_fence_L_1'].Put('',-4,-0.4,0,0,0,0,1,1);
+2001;           Structure['humikiri_7_L-1'].Put(    '',-3.00,-0.25,0,,  0,,1,0);
+2002.5;         Structure['syadanki_7_L-1'].Put(    '',-3.00,-0.25,0,,  0,,1,0);
+2002;           Structure['humikiri_fence_R_2'].Put('',-4.95,-0.40,0,,-90,,1,0);
+2003;           Structure['humikiri_fence_L_1'].Put('',-4.00,-0.40,0,,  0,,1,0);
 
 // 左上
-2012;           Structure['humikiri_fence_L_1'].Put('',-4,-0.4,0,0,0,0,1,1);
-2013;           Structure['humikiri_fence_R_2'].Put('',-4.95,-0.4,0.1,0,-90,0,1,1);
+2012;           Structure['humikiri_fence_L_1'].Put('',-4.00,-0.40,0.0,,  0,,1,0);
+2013;           Structure['humikiri_fence_R_2'].Put('',-4.95,-0.40,0.1,,-90,,1,0);
 
 // 右上
-2013;           Structure['syadanki_7_L-2'].Put('',-3,-0.25,0,0,0,0,1,1);
-2016;           Structure['humikiri_fence_R_1'].Put('', 4,-0.4,0,0,0,0,1,1);
-2017;           Structure['humikiri_fence_L_2'].Put('', 4.95,-0.4,0.1,0, 90,0,1,1);
-2017;           Structure['humikiri_7_R-1'].Put('', 3.9,-0.25,0,0,0,0,1,1);
+2013;           Structure['syadanki_7_L-2'].Put(    '',-3.00,-0.25, 0.0,,  0,,1,0);
+2016;           Structure['humikiri_fence_R_1'].Put('', 4.00,-0.40, 0.0,,  0,,1,0);
+2017;           Structure['humikiri_fence_L_2'].Put('', 4.95,-0.40, 0.1,, 90,,1,0);
+2017;           Structure['humikiri_7_R-1'].Put(    '', 3.90,-0.25, 0.0,,  0,,1,0);
 
 // 右下
-2006.5;         Structure['syadanki_7_R-1'].Put('', 3,-0.25,0,0,0,0,1,1);
-2007;           Structure['humikiri_fence_L_2'].Put('', 4.95,-0.4,0,0, 90,0,1,1);
-2008;           Structure['humikiri_fence_R_1'].Put('', 4,-0.4,0,0,0,0,1,1);
+2006.5;         Structure['syadanki_7_R-1'].Put(    '', 3.00,-0.25,0,,  0,,1,0);
+2007;           Structure['humikiri_fence_L_2'].Put('', 4.95,-0.40,0,, 90,,1,0);
+2008;           Structure['humikiri_fence_R_1'].Put('', 4.00,-0.40,0,,  0,,1,0);
 
 2025;           Structure['humikiri_name_0'].Put('', 3,-0.3,0,0,0,0,1,1);
 
+// 道路
 2010;           Repeater['douro_L'].Begin( ,-8.5,-0.05,0,0,0,0,1,5,5,'douro_1');
 2020;           Repeater['douro_R'].Begin( , 8.5,-0.05,0,0,0,0,1,5,5,'douro_1');
 2225;           Repeater['douro_R'].End();

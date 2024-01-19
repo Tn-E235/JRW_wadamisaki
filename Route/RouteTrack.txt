@@ -64,7 +64,7 @@ BveTs Map 2.02
 410.193;    Curve.End();    
 
 420;        Curve.BeginTransition();    Structure['GradualDiminution_P'].Put('',-2,0,0,0,0,0,1,1);
-460;        Curve.Begin(-195, -0.05);   Structure['Curve_P'].Put('',-2,0,0,0,0,0,1,1);
+460;        Curve.Begin(-195, -0.02);   Structure['Curve_P'].Put('',-2,0,0,0,0,0,1,1);
 800;        Curve.BeginTransition();    Structure['Curve_P'].Put('',-2,0,0,0,0,0,1,1);    
 835;        Curve.Begin(-190,  0.00);
 
@@ -179,18 +179,19 @@ BveTs Map 2.02
 460;        Track['hyogo_wada_old'].X.Interpolate(1.8+18.00,         195);   
 500;        Track['hyogo_wada_old'].X.Interpolate(1.8+28.00,           0);   
 
-220;        Track['hyogo_wada_old_kijun'].X.Interpolate( 0.5, 0);
-            Track['hyogo_wada_old_kijun'].Y.Interpolate(-0.5, 0);
+$OFFSET=-0.5;
+220;        Track['hyogo_wada_old_kijun'].X.Interpolate($OFFSET+ 0.5, 0);
+            Track['hyogo_wada_old_kijun'].Y.Interpolate(-0.25, 0);
 
-365;        Track['hyogo_wada_old_kijun'].X.Interpolate(0.500, 118);
-379.395;    Track['hyogo_wada_old_kijun'].X.Interpolate(1.384,   0);
-395.798;    Track['hyogo_wada_old_kijun'].X.Interpolate(3.366, 236); 
-410.193;    Track['hyogo_wada_old_kijun'].X.Interpolate(5.000,   0);    
+365;        Track['hyogo_wada_old_kijun'].X.Interpolate($OFFSET+0.500, 118);
+379.395;    Track['hyogo_wada_old_kijun'].X.Interpolate($OFFSET+1.384,   0);
+395.798;    Track['hyogo_wada_old_kijun'].X.Interpolate($OFFSET+3.366, 236); 
+410.193;    Track['hyogo_wada_old_kijun'].X.Interpolate($OFFSET+5.000,   0);    
 
-420;        Track['hyogo_wada_old_kijun'].X.Interpolate( 6.15,  700);
-440;        Track['hyogo_wada_old_kijun'].X.Interpolate( 8.60,  200);
-460;        Track['hyogo_wada_old_kijun'].X.Interpolate(12.30,  250);   
-500;        Track['hyogo_wada_old_kijun'].X.Interpolate(25.50,    0);   
+420;        Track['hyogo_wada_old_kijun'].X.Interpolate($OFFSET+ 6.15,  700);
+440;        Track['hyogo_wada_old_kijun'].X.Interpolate($OFFSET+ 8.60,  200);
+460;        Track['hyogo_wada_old_kijun'].X.Interpolate($OFFSET+12.30,  250);   
+500;        Track['hyogo_wada_old_kijun'].X.Interpolate($OFFSET+25.50,    0);   
 
 // -------------------------------------------------------------------------- //
 //      線形データ(川崎重工引込線1)                                           //

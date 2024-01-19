@@ -17,6 +17,7 @@ include './Route/StrPut/Station_hyogo.txt';
 include './Route/StrPut/KawasakiSyaryo.txt';
 include './Route/StrPut/Humikiri.txt';
 include './Route/StrPut/Kasen.txt';
+include './Route/StrPut/kobe_hosen_ku.txt';
 # include '';
 # include '';
 # include '';
@@ -28,4 +29,5 @@ include './Route/StrPut/Kasen.txt';
 0;  Background.Change('Bg_fine_summer');
 
 // ---- キロポスト ---------------------------------------------------------- //
-0; Repeater['POST'].Begin('',-2,0,0,0,0,0,1,0,100,'kilopost3sk', 'kilopost31ky','kilopost32ky','kilopost33ky','kilopost34ky','kilopost3sk','kilopost36ky','kilopost37ky','kilopost38ky','kilopost39ky');
+0;      Repeater['POST'].Begin('',-2,0,0,0,0,0,1,0,100,'kilopost3sk', 'kilopost31ky','kilopost32ky','kilopost33ky','kilopost34ky','kilopost3sk','kilopost36ky','kilopost37ky','kilopost38ky','kilopost39ky');
+3000;   Repeater['POST'].End();
