@@ -106,7 +106,16 @@ BveTs Map 2.02
 1210;   Repeater['fence3R'].End();
 // ---- [区画４] ------------------------------------------------------------ //
 1230;   Structure['mantendo'].Put($GL,-10.5,0,0,0,0,0,1,20);
-1240;   Structure['world_fruit'].Put($GL, 9.0,1.0,0,0,-15,0,1,0);
+1240;   Structure['world_fruit'].Put($GL, 8.0,1.0,0,0,-15,0,1,0);
+1265;   Structure['kawahara_tekko_1'].Put($GL, 4.5,0.0,0,0,0,0,1,0);
+1283;   Structure['kawahara_tekko_2'].Put($GL, 4.5,0.0,0,0,0,0,1,0);
+1295;   Structure['yutaka_syaryo_1'].Put($GL, 4.5,0.0,0,0,0,0,1,0);
+1342;   Structure['yutaka_syaryo_2'].Put($GL, 4.75,0.0,0,0,0,0,1,0);
+
+
+1350;   Structure['denso_1'].Put($GL, 4.5,0.0,0,0,15,0,1,0);
+1365;   Structure['denso_2'].Put($GL, 4.5,0.0,0,0,15,0,1,0);
+
 
 1270;   Structure['kenei_kobe_meiwa_jutaku_1'].Put($GL,-11.5,0,0,0,0,0,1,20);
 1323;   Structure['kenei_kobe_meiwa_jutaku_2'].Put($GL,-11.5,0,0,0,0,0,1,20);
@@ -116,11 +125,17 @@ BveTs Map 2.02
 1226.5; Structure['fence4_1'].Put($GL,-9.0,,,,45,,1,5);
 1230;   Repeater['fence4L'].Begin($GL,-5.5,0,0,0,0,0,1,5,5,'fence4_1');
 1380;   Repeater['fence4L'].End();
-1227.5;   Repeater['fence4R'].Begin($GL, 5.5,0,0,0,0,0,1,2.5,2.5,'fence4_2');
-1240;   Repeater['fence4R'].Begin($GL, 5.5,0,0,0,0,0,1,2.5,2.5,'fence4_3');
-1242.5; Repeater['fence4R'].Begin($GL, 5.5,0,0,0,0,0,1,2.5,2.5,'fence4_4');
+1227.5;   Repeater['fence4R'].Begin($GL, 4.5,0,0,0,0,0,1,2.5,2.5,'fence4_2');
+1240;   Repeater['fence4R'].Begin($GL, 4.5,0,0,0,0,0,1,2.5,2.5,'fence4_3');
+1242.5; Repeater['fence4R'].Begin($GL, 4.5,0,0,0,0,0,1,2.5,2.5,'fence4_4');
 1265;   Repeater['fence4R'].End();
+
+1347.5; Repeater['fence4R'].Begin($GL, 4.5,0,0,0,0,0,1,2.5,2.5,'fence4_5');
+1375;   Repeater['fence4R'].End();
 // ---- [区画５] ------------------------------------------------------------ //
+
+1390;   Structure['fujitsu'].Put($GL, 4.5,0.0,0,0,0,0,1,0);
+1390;   Structure['red_rock'].Put($GL,-17.5,0.0,0,0,15,0,1,0);
 
 // 北の椅子と
 1525;   Structure['kitano_isu_to'].Put($GL, 16,0,0,0,0,0,1,0);

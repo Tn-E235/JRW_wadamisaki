@@ -182,6 +182,8 @@ humikiri_3_R,
 // ---- 東尻池第5踏切[4] -------------------------------------------------------
 humikiri_name_4,    E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\標識類\humikiri_name_4.x
 humikiri_ban_4,     E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\線路\clip\humikiri_4.x
+humikiri_4_L,       E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\標識類\humikiri_4_L.x
+humikiri_4_R,       E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\標識類\humikiri_4_R.x
 // ---- 御崎通踏切   [5] -------------------------------------------------------
 humikiri_name_5,    E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\標識類\humikiri_name_5.x
 humikiri_ban_5-1,   
@@ -221,6 +223,7 @@ fence4_1,           E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テク
 fence4_2,           E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\フェンス\fence4_2.x
 fence4_3,           E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\フェンス\fence4_3.x
 fence4_4,           E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\フェンス\fence4_4.x
+fence4_5,           E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\フェンス\fence4_5.x
 // ========================================================================== //
 //      キャナルタウン                                                        //
 // ========================================================================== //
@@ -288,6 +291,21 @@ kohnan,             E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テク
 tea_room_cherry,    E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\tea_room_cherry.x
 
 world_fruit,        E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\world_fruit.x
+
+kawahara_tekko_1,   E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\kawahara_tekko_1.x
+kawahara_tekko_2,   E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\kawahara_tekko_2.x
+
+yutaka_syaryo_1,      E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\yutaka_syaryo_1.x
+yutaka_syaryo_2,      E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\yutaka_syaryo_2.x
+
+// デンソーテン駐車場
+denso_1,            E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\denso_1.x
+denso_2,            E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\denso_2.x
+
+// 富士通テン体育館
+fujitsu,            E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\fujitsu.x
+
+red_rock,            E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\建物\red_rock.x
 
 // ========================================================================== //
 //      御所通り4                                                             //
