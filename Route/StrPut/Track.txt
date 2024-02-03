@@ -22,8 +22,10 @@ BveTs Map 2.02
                 Repeater['MainTrack_Rail_side'].Begin0('',1,5,5,'rail_0_side_tall');
 750;            Repeater['MainTrack_Rail_side'].Begin0('',1,5,5,'rail_0_side');
 1450;           Repeater['MainTrack_Rail'].End();
+1450;           Repeater['MainTrack_Rail_side'].End();
                 Structure['rail_bridge_1'].Put('',,0.00,,,,,3,25);
 1475;           Repeater['MainTrack_Rail'].Begin0('',3,5,5,'rail_1');
+                Repeater['MainTrack_Rail_side'].Begin0('',1,5,5,'rail_0_side');
 2280;           Repeater['MainTrack_Rail'].End();
 
 // -------------------------------------------------------------------------- //
@@ -183,8 +185,7 @@ distance+5;     Structure['dote_1'].PutBetWeen('hyogo_wada_old_kijun','hyogo_wad
 // -------------------------------------------------------------------------- //
 //      回転橋                                                                //
 // -------------------------------------------------------------------------- //
-1470;           Structure['dote_kaiten_br-1'].Put('',,-0.5,0,0,0,0,1,20);
-1490;           Structure['dote_kaiten_br-2'].Put('',,-0.5,0,0,0,0,1,20);
+1470;           Structure['dote_kaiten_br-1'].Put('',0,-0.30,0,0,0,0,1,20);
 
 
 

@@ -92,6 +92,7 @@ BveTs Map 2.02
 1379;           Structure['humikiri_4_L'].Put('',-4,-0.25,0,,   ,,0,0);
 1379;           Structure['humikiri_4_R'].Put('', 4,-0.25,0,,   ,,0,0);
 
+1400;           Structure['humikiri_name_0'].Put('', 3,-0.30,,,  0,,1,0);
 // ---- [1.65kmP]御崎通踏切 ------------------------------------------------- //
 1585;           Structure['humikiri_name_5'].Put('',-3,-0.30,,,  0,,1,0);
 1625;           Structure['humikiri_ban_5'].Put( '', 0,-0.01,,,  0,,1,0);

@@ -224,6 +224,8 @@ fence4_2,           E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テク
 fence4_3,           E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\フェンス\fence4_3.x
 fence4_4,           E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\フェンス\fence4_4.x
 fence4_5,           E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\フェンス\fence4_5.x
+fence5_1,           E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\フェンス\fence5_1.x
+fence5_2,           E:\Users\nepia\Desktop\和田岬作業ﾌｫﾙﾀﾞ\テクスチャ\フェンス\fence5_2.x
 // ========================================================================== //
 //      キャナルタウン                                                        //
 // ========================================================================== //
